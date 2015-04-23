@@ -1,0 +1,33 @@
+Source: sugar-finance-activity
+Section: x11
+Priority: optional
+Maintainer: Debian Sugar Team <pkg-sugar-devel@lists.alioth.debian.org>
+Uploaders: Jonas Smedegaard <dr@jones.dk>
+Build-Depends: cdbs (>= 0.4.97~),
+ devscripts,
+ debhelper,
+ dh-buildinfo,
+ python,
+ python-sugar3,
+ unzip
+Standards-Version: 3.9.1
+X-Python-Version: 2.7
+Vcs-Git: https://github.com/tchx84/sugar-finance-activity.git
+Vcs-Browser: https://github.com/tchx84/sugar-finance-activity.git
+DM-Upload-Allowed: yes
+
+Package: sugar-finance-activity
+Architecture: all
+Depends: ${shlibs:Depends}, ${python:Depends}, ${cdbs:Depends}, ${misc:Depends}
+Recommends: ${cdbs:Recommends}
+Provides: ${python:Provides}, ${cdbs:Provides}
+Conflicts: ${cdbs:Conflicts}
+Replaces: ${cdbs:Replaces}
+Description: Sugar Finance activity
+ Sugar is a graphical user interface aimed at children.
+ .
+ Finance is a simple financial planning activity, it can
+ be integrated into classroom assignments, or else used
+ to track finances for a school club and it might also be
+ useful for students who wish to help their parents with
+ home finances.

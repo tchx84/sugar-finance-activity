@@ -1,0 +1,5 @@
+sugar-finance-activity (12-1) UNRELEASED; urgency=low
+
+  * Initial release for Debian.
+
+ -- Martin Abente Lahaye <tch@sugarlabs.org>  Thu, 16 Apr 2015 10:28:52 -0400
